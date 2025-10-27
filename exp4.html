@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Form</title>
+</head>
+<body>
+    <div id="form" style="display: block ; justify-items : center; border:100px; height: auto; width: 600px; justify-self:  center; background-color: aquamarine; border: 10px; border-color: black; border-style: double; border-radius: 10%;">
+        <h1>Hotel Room Booking Form</h1>
+        <form action="post" style="display: block; justify-items: center; ">
+            <div style="margin-bottom: 5px;">
+                <label for="name">Full Name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter Your Name">
+            </div>
+            <div style="margin-bottom: 5px;">
+                <label for="mail">Email:</label>
+                <input type="text" name="mail" id="mail" placeholder="Enter Your Email ID">
+            </div>
+            <div style="margin-bottom: 5px;">
+                <label for="phone">Phone:</label>
+                <input type="text" name="phone" id="phone" placeholder="Enter Your Phone no.">
+            </div>
+            <div style="margin-bottom: 5px;">
+                <label for="checkin">Check-in Date:</label>
+                <input type="date" name="checkin" id="checkin">
+            </div>
+            <div style="margin-bottom: 5px;">
+                <label for="checkout">Check-out Date:</label>
+                <input type="date" name="checkout" id="checkout">
+            </div>
+            <div style="margin-bottom: 5px;">
+                <label for="room">Room Type:</label>
+                <select name="room" id="room" >
+                    <option value="rooom">--Select Room Type--</option>
+                    <option value="standard">Standard</option>
+                    <option value="deluxe">Deluxe</option>
+                    <option value="suite">Suite</option>
+                    <option value="family">Family Room</option>
+                </select>
+            </div>
+            <div style="margin-bottom: 0px;">
+                <label for="people">Number of Guests:</label>
+                <input type="text" name="people" id="people" placeholder="No. of Guests">
+            </div>
+            <div>
+                <p style="justify-self: center;">Special Requests:</p>
+                <textarea name="req" rows="5" cols="50">Enter Your Requests Here...</textarea>
+            </div>
+            <div style="margin-bottom: 10px;">
+                <input type="submit" value="SUBMIT">
+                <input type="reset" value="RESET">
+            </div>
+
+        </form>
+    </div>
+    
+</body>
+</html>
