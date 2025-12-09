@@ -1,0 +1,6 @@
+/* Only direct p children of a div */
+div > p {
+  color: green;
+}
+
+/* Nested paragraph inside section (not a direct child) is unaffected */

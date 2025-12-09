@@ -1,0 +1,6 @@
+/* Only paragraphs inside a div become brown */
+div p {
+  color: brown;
+}
+
+/* paragraphs outside will use default browser color (usually black) */

@@ -1,0 +1,4 @@
+/* Styles all p elements that follow an h3 at the same parent level */
+h3 ~ p {
+  background-color: lightgray;
+}

@@ -1,0 +1,4 @@
+/* Styles the first p immediately after an h2 */
+h2 + p {
+  color: red;
+}
