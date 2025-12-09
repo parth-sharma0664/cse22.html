@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #222;
+  padding: 15px;
+  color: white;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.menu a:hover {
+  background: #444;
+}
+
+@media (max-width: 600px) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+}

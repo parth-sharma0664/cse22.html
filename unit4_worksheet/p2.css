@@ -1,0 +1,15 @@
+.hero {
+  background: lightblue;
+  color: #001f3f;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding: 40px;
+}
+
+.hero h1 {
+  font-size: 36px;
+}
+
+.hero .tagline {
+  font-size: 18px;
+}

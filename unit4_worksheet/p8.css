@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  background: lightgreen;
+}
+
+.left, .right {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #333;
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    background: lightpink;
+  }
+}

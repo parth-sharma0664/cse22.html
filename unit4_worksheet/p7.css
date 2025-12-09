@@ -1,0 +1,18 @@
+html {
+  font-size: 16px; /* change to 10px to test rem */
+}
+
+.px {
+  font-size: 24px;
+}
+
+.rem {
+  font-size: 2rem;
+}
+
+.box {
+  width: 50%;
+  height: 20vh;
+  background: coral;
+  margin-top: 20px;
+}

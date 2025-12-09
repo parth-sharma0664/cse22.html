@@ -1,0 +1,16 @@
+.intro {
+  color: green;
+}
+
+#container {
+  background: lightgray;
+  padding: 20px;
+}
+
+.card p {
+  color: darkgray;
+}
+
+.title {
+  color: blue;
+}
