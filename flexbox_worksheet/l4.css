@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  height: 200px;
+  align-items: center;
+  /* try:
+    flex-start
+    center
+    flex-end
+    stretch
+    baseline
+  */
+  background: #eee;
+}
+
+.box {
+  width: 60px;
+  height: 60px;
+  background: orange;
+  color:white;
+  text-align:center;
+  line-height:60px;
+  margin:5px;
+}

@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: center;
+  /* try:
+     flex-start
+     center
+     flex-end
+     space-between
+     space-around
+     space-evenly
+  */
+}
+
+.box {
+  width:60px;
+  height:60px;
+  background: purple;
+  color:white;
+  margin:5px;
+  line-height:60px;
+  text-align:center;
+}
